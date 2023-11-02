@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Company</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <style>
+        .navbar-logo {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+
+        .bg-overlay {
+            background: rgba(0, 0, 0, 0.5);
+        }
+
+        @media (min-width: 768px) {
+            .card-title {
+                font-size: 2rem;
+                margin: 0;
+                padding: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+<!-- navbar section -->
+<nav class="navbar navbar-expand-md navbar-light bg-light">
+    <a class="navbar-brand" href="#">
+        <img src="img/logo.png" alt="Company Logo" class="navbar-logo"> My Company
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars" style="border: 0;"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-md-auto align-items-center">
+            <li class="nav-item text-center m-2" style="height: 40px; width: 100px;">
+                <a class="nav-link" href="#">Menu1</a>
+            </li>
+            <li class="nav-item text-center m-2" style="height: 40px; width: 100px;">
+                <a class="nav-link" href="#">Menu2</a>
+            </li>
+            <li class="nav-item text-center m-2" style="height: 40px; width: 100px;">
+                <a class="nav-link" href="#">Menu3</a>
+            </li>
+            <li class="nav-item text-center m-2" style="height: 40px; width: 100px;">
+                <button class="btn btn-light btn-block btn-outline-dark">Login</button>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<!-- top section with image background and search bar -->
+<div class="container-fluid bg-dark text-white p-0 position-relative">
+    <div class="bg-overlay position-absolute w-100 h-100"></div>
+    <div class="d-flex flex-column" style="min-height: 350px; background-image: url('img/bkg.jpg'); background-size: cover; background-position: center;">
+        <div class="form-row col-md-4 mt-auto">
+            <div class="col-md-12 ml-md-5 text-left">
+                <h1 class="card-title text-white" style="font-size: 3rem;">Lorem ipsum<br>dolor sit amet</h1>
+            </div>
+        </div>
+        <div class="container mt-auto">
+            <div class="form-row justify-content-center mb-4">
+                <div class="col-md-5 col-sm-12 pr-md-0 pb-2">
+                    <input type="text" class="form-control rounded-0" style="height: 60px;">
+                </div>
+                <div class="col-md-2 col-sm-12 pl-md-0">
+                    <button class="btn btn-secondary btn-block rounded-0" style="height: 60px; background-color: rgb(47, 65, 55); border-color: rgb(47, 65, 55);">SEARCH</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- bottom section with 3 cards -->
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="img/img1.png" class="card-img-top" alt="misty pine forest">
+                <div class="card-body" style="background-color: rgb(47, 65, 55);">
+                    <h5 class="card-title text-white">Lorem ipsum</h5>
+                    <p class="card-text text-white">Est veneratis</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="img/img2.jpg" class="card-img-top" alt="forest reflecting by a lakeshore">
+                <div class="card-body" style="background-color: rgb(47, 65, 55);">
+                    <h5 class="card-title text-white">Lorem ipsum</h5>
+                    <p class="card-text text-white">Est veneratis</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class "card">
+                <img src="img/img3.png" class="card-img-top" alt="tall forest trees seen from below to the sky">
+                <div class="card-body" style="background-color: rgb(47, 65, 55);">
+                    <h5 class="card-title text-white">Lorem ipsum</h5>
+                    <p class="card-text text-white">Est veneratis</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Bootstrap and other JavaScript libraries if needed -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
